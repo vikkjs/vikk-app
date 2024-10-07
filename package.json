@@ -1,0 +1,25 @@
+{
+    "type": "module",
+    "name": "vikk-app",
+    "version": "1.0.0",
+    "description": "Generates a Vikk app",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vikkjs/vikk-app.git"
+    },
+    "bin": {
+        "vikk-app": "./index.js"
+    },
+    "keywords": [
+        "vikk"
+    ],
+    "author": "eekelof",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "child_process": "^1.0.2",
+        "fs": "0.0.1-security",
+        "path": "^0.12.7"
+    }
+}
